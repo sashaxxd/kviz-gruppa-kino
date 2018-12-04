@@ -1,0 +1,64 @@
+
+#Layer1 .modal-dialog {
+    margin: 30px auto;
+    position: relative;
+    max-width: 100%;
+    min-height: 557px;
+    height: 100%;
+}
+
+#Layer1 .modal-body {
+
+    position: relative;
+    max-width: 100%;
+
+    min-height: 557px;
+    height: 100%;
+}
+
+
+#Layer2 .modal-dialog {
+    margin: 30px auto;
+    position: relative;
+    max-width: 100%;
+    min-height: 557px;
+    height: 100%;
+}
+
+#Layer2 .modal-body {
+
+    position: relative;
+    max-width: 100%;
+
+    min-height: 557px;
+    height: 100%;
+}
+#wb_LayoutGrid2{
+   /*top: 50px;*/
+}
+
+.modal_close {
+    width: 24px;
+    height: 24px;
+    background: url(img/close.svg) center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    opacity: .4;
+    transition: all .2s linear;
+}
+
+.modal_close:hover {
+    transform: rotate(-90deg);
+    transition: all .2s linear;
+    cursor: pointer;
+
+}
+
+.modal{
+    overflow:auto !important;
+}
+#Button3{
+    cursor: no-drop;
+}
